@@ -1,0 +1,56 @@
+#projects {
+  height: 100%;
+  min-height: 100vh;
+  padding: 0 !important;
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+#projects h1 {
+  margin-top: 50px;
+}
+.card {
+  min-height: 400px;
+  width: 500px;
+  color: white;
+  background-color: rgba(1, 1, 1, 0.5);
+  margin-top: 30px;
+  transition: all ease 0.2s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.card-pic {
+  height: 50%;
+  width: 100%;
+}
+
+.card-name {
+  font-family: "Lemon Milk", 'sans-serif';
+  font-size: 32px;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.card-description {
+  font-family: 'Modern Sans', 'sans-serif';
+  font-size: 24px;
+  padding: 5px 20px;
+}
+
+.card ul {
+  padding: 5px 20px;
+}
+
+.card li {
+  font-family: "Modern Sans", "sans-serif";
+  font-size: 16px;
+  display: inline-block;
+
+}

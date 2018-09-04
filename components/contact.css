@@ -1,0 +1,28 @@
+#contact {
+    height: 100%;
+    min-height: 100vh;
+    padding: 0 !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+#contact h1 {
+  margin-top: 200px;
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+
+#contact h3 {
+  margin: 20px 10px;
+}
+
+#contact a:hover {
+  transform: scale(1.1);
+}
+
+#contact .info {
+  padding: 100px 100px;
+}

@@ -1,0 +1,28 @@
+.navbar {
+  /* width: 100vw; */
+  background-color: transparent;
+  box-shadow: 1px 1px 3px rgba( 0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 200px;
+  height: 90px;
+}
+
+.nav-item {
+  color: white;
+  font-family: "Modern Sans", 'sans-serif';
+  font-size: 28px;
+  border: 1px solid white;
+  padding: 8px 10px 3px 10px;
+  line-height: 28px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  transition: all ease 0.3s;
+}
+
+.nav-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
