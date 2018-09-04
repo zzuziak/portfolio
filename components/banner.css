@@ -28,6 +28,13 @@ h1 {
   font-size: 56px;
 }
 
+h2 {
+  color: white;
+  font-family: "Lemon Milk", "sans-serif";
+  font-size: 40px;
+}
+
+
 
 p {
   color: white;
@@ -39,6 +46,9 @@ p {
   margin-top: 25vh;
 }
 
+.intro-mobile {
+  margin-top: 10vh;
+}
 .info {
   margin-top: 50px;
 }

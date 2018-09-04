@@ -13,7 +13,8 @@
 }
 .card {
   min-height: 400px;
-  width: 350px;
+  min-width: 40vw;
+  max-width: 450px;
   color: white;
   background-color: rgba(1, 1, 1, 0.5);
   margin-top: 30px;

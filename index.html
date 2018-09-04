@@ -12,17 +12,27 @@
     <title>Zuza Żuber</title>
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar d-none d-sm-block">
         <p id="link-about" class="nav-item">ABOUT</p>
         <p id="link-projects" class="nav-item">PROJECTS</p>
         <p id="link-contact" class="nav-item">CONTACT</p>
     </div>
+
+    <div class="navbar-mobile d-block-inline d-sm-none">
+        <a href="#about"><p id="link-about" class="nav-item-mobile">ABOUT</p></a>
+        <a href="#projects"><p id="link-projects" class="nav-item-mobile">PROJECTS</p></a>
+        <a href="#contact"><p id="link-contact" class="nav-item-mobile">CONTACT</p></a>
+    </div>
     <div class="background"></div>
     <div class="banner">
       <div class="container">
-          <div class="intro">
-          <h1>Hi, I'm Zuza.</h1>
-          <h1>I'm a Junior Fullstack Developer.</h1>
+          <div class="intro d-none d-sm-block">
+            <h1>Hi, I'm Zuza.</h1>
+            <h1>I'm a Junior Fullstack Developer.</h1>
+          </div>
+          <div class="intro-mobile d-block d-sm-none">
+            <h2>Hi, I'm Zuza.</h2>
+            <h2>I'm a Junior Fullstack Developer.</h2>
           </div>
 
           <p class="info">Freshly graduated alumni of Le Wagon coding bootcamp with category management experience gained during 4 years at Adidas. Quicklearner with high problem solving skills and curiosity for new frameworks and solutions.</p>
@@ -111,10 +121,23 @@
     </div>
     <div id="contact">
       <h1 class="text-center">Feel free to reach out!</h1>
-      <div class="info">
-        <a href="https://github.com/zzuziak" class="contact"><h3><i class="fab fa-github"></i> ZZUZIAK </h3></a>
-        <a href="https://www.linkedin.com/in/zuza-%C5%BCuber-a627b69a/" class="contact"><h3><i class="fab fa-linkedin"></i> ZUZA ŻUBER </h3></a>
-        <a href="mailto:zuberzuzanna@gmail.com" class="contact"><h3><i class="fas fa-at"></i> E-MAIL</h3></a>
+      <div class="info d-none d-sm-block">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <a href="https://github.com/zzuziak" class="contact"><h3><i class="fab fa-github"></i> ZZUZIAK </h3></a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="https://www.linkedin.com/in/zuza-%C5%BCuber-a627b69a/" class="contact"><h3><i class="fab fa-linkedin"></i> ZUZA ŻUBER </h3></a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="mailto:zuberzuzanna@gmail.com" class="contact"><h3><i class="fas fa-at"></i> E-MAIL</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="info-mobile d-block d-sm-none text-center">
+        <a href="https://github.com/zzuziak" class="contact"><h2><i class="fab fa-github"></i></h2></a>
+        <a href="https://www.linkedin.com/in/zuza-%C5%BCuber-a627b69a/" class="contact"><h2><i class="fab fa-linkedin"></i></h2></a>
+        <a href="mailto:zuberzuzanna@gmail.com" class="contact"><h2><i class="fas fa-at"></i></h2></a>
       </div>
     </div>
     <script src="javascript.js"></script>
