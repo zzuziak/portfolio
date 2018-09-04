@@ -13,7 +13,17 @@
 }
 .card {
   min-height: 400px;
-  width: 500px;
+  width: 350px;
+  color: white;
+  background-color: rgba(1, 1, 1, 0.5);
+  margin-top: 30px;
+  transition: all ease 0.2s;
+  margin-bottom: 20px;
+}
+
+.card-mobile {
+  min-height: 300px;
+  width: 350px;
   color: white;
   background-color: rgba(1, 1, 1, 0.5);
   margin-top: 30px;
